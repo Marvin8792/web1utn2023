@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas CSS</title>
+    <style>
+    td{
+        background-color: aqua;
+    }
+
+    table{
+        border-color: black;
+        border-width: 5px;
+        border-style: dotted;
+    }
+    
+    
+    </style>
+    <link rel="stylesheet" href="ejemCSS/main.css">
+</head>
+<body>
+    <!-- control } para generar un comentario -->
+     <H1>TABLAS</H1>
+     <table border="1">
+    <!-- th para poner encabzados-->
+        <tr>
+            <th style="background-color: blueviolet; color: white">Nombre</th>
+            <th>Apellido 1</th>
+            <th>Apellido 2</th>
+    <!--tr: es para organizar en fila -->
+        </tr>
+     <!-- td*3 para crear tres tablas al mismo tiempo -->
+        <tr>
+            <td>Marvin </td>
+            <td>Vasquez </td>
+            <td>Rodriguez </td>
+        </tr>
+        <!--  -->
+        <tr>
+            <td colspan="2" id="colfechaNac">Fecha de Nacimiento</td>
+            <td>02-03-2003</td>
+        </tr>
+        <!-- rowspan: para indicar que utiliza mas de una fila -->
+        <tr>
+            <td>ocl</td>
+            <td>col</td>
+            <td rowspan="2">klsd</td>
+        </tr>
+        <tr>
+            <td>sd</td>
+            <td>sdg</td>
+        </tr>
+     </table>
+</body>
+</html>
