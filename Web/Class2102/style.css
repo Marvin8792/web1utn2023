@@ -1,0 +1,22 @@
+.nav{
+    background-color: steelblue;
+    color: white;
+    margin: 0;
+    padding: 0px;
+}
+
+/* Esto es para especificar que dentro del ul que tenga un nav se le modifiquen los li */
+ul.nav>li{
+    display: inline;
+    border-right: 1px solid;
+    padding: 0px 5px;
+}
+/* se utiliza el > para indicar que es un hijo directo */
+ul.nav>li>a{
+    color: inherit;
+    text-decoration: none;
+} 
+
+.parrafoClass{
+    background-color: deeppink;
+}

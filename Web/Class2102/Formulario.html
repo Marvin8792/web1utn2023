@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <form action="" method="get">
+    <div>
+        <div class="input">
+            <label for="id">Nombre:</label>
+            <input type="Nombre" name="id" id="id" placeholder="Digite su nombre" maxlength="1">
+        </div>
+    </div>
+    <div>
+        <div class="input">
+            <label for="id">Cedula:</label>
+            <input type="number" name="num" id="num" placeholder="Digite su cedula" maxlength="1">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass" id="pass">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="Color">Color:</label>
+            <input type="color" name="color" id="color">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="fecha">fecha:</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="hora">hora:</label>
+            <input type="time" name="hora" id="hora">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="correo">Correo electronico:</label>
+            <input type="email" name="correo" id="correo">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="url">url:</label>
+            <input type="url" name="url" id="url">
+        </div>
+    </div>
+    <div>
+        <div class="input">
+            <label for="file"> documento:</label>
+            <input type="file" name="ARCHIVO" id="ARCHIVO">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="pass">:</label>
+            <input type="hidden" name="codigo" id="codigo">
+        </div>
+    </div>
+    <div>
+        <div class="input">
+            <label for="EDAD">EDAD:</label>
+            <input type="range" name="EDAD" id="EDAD" max="60" min="15">
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="file">Descipcion:</label>
+            <textarea name="Descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="pass">Pizza:</label>
+            <input type="radio" name="Comida" value="1"> 
+                
+            <label for="pass">Hamburguesa:</label>
+            <input type="radio" name="Comida" value="2">
+    
+            <label for="pass">Tacos:</label>
+            <input type="radio" name="Comida" value="3">
+
+
+            <label for="pass">Perros:</label>
+            <input type="radio" name="Comida" value="4">
+    </div>
+
+    <!-- El name simpre tiene que ser el mismo para que se agrupen -->
+    <div>
+        <div class="input">
+            <label for="pass">Natura:</label>
+            <input type="checkbox" name="Bebidas" value="1"> 
+                
+            <label for="pass">Gaseosa:</label>
+            <input type="checkbox" name="Bebidas" value="2">
+    
+            <label for="pass">Alcolica:</label>
+            <input type="checkbox" name="Bebidas" value="3">
+
+
+            <label for="pass">otros:</label>
+            <input type="checkbox" name="Bebidas" value="4">
+    </div>
+
+    <div>
+        <div class="input">
+            <label for="pass">Escoja marca:</label>
+            <select name="marca" id="marca">
+                <option value="1">Toyota</option>
+                <option value="2">Nissan</option>
+                <option value="3">Mitsubishi</option>
+                <option value="5">AUDI</option>
+                <option value="6">MBW</option>
+            </select>     
+    </div>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+    
+    </form>
+</body>
+</html>
