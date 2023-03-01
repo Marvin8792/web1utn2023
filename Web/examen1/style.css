@@ -1,0 +1,25 @@
+*{
+    margin: 5px;
+}
+
+img{
+    height: 100%;
+    width: 600px;
+    padding: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texto{
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.blog{
+    width: 650px;
+}
+
+.final{
+ background-color: blueviolet;
+ width: auto;
+}
