@@ -1,3 +1,3 @@
 function redireccion(){
-    location.href = "index.html"
+    location.href = "PaginaPrincipal.html"
 }
