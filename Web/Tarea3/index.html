@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea03</title>
+</head>
+<body>
+
+<label> Butto para validar si el numero es par o impar:</label>
+<button onclick="alert(parOImpar(9));">Numero par o inpar</button>
+<hr>
+<label> Butto para analizar si la cadena de carscteres son mayusculas, minusculas o ambas:</label>
+<button onclick="alert(analizarCadena('Butto para analizar si la cadena de carscteres estan mayusculas o minusculas'));">Analizar cadena</button>
+<hr>
+<label> Button para comprobar el palindromo:</label>
+<input type="text" id="cadena">
+<button onclick="mostrarPalindromo()">Comprobar si es palíndromo</button>
+<script>
+
+
+  function mostrarPalindromo() {
+    var cadena = document.getElementById("cadena").value;
+    if(esPalindromo(cadena)) {
+      alert("La cadena es un palíndromo");
+    } else {
+      alert("La cadena no es un palíndromo");
+    }
+  }
+
+
+</script>
+    <script src="/Web/Tarea3/JS/index.js"></script>
+</body>
+</html>
